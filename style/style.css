@@ -18,7 +18,90 @@
     clear: both;
 }
 
+/* login */
+
+section.area-login{
+    display: flex;
+    background-color: #2d0869;
+    justify-content: center;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section.area-login .login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #181920;
+    border-radius: 20px;
+    width: 455px;
+    height: 420px;
+    padding: 35px;
+}
+
+section.area-login .login form{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+section.area-login .login input{
+    margin-top: 25px;
+    background-color: #252a34;
+    padding-left: 14px;
+    color: #CBD0F7;
+    border: none;
+    height: 45px;
+    outline: none;
+    border-radius: 8px;
+}
+
+section.area-login .login img{
+    width: 70px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+section.area-login .login form input::placeholder{
+    color: #dacaf3;
+    font-size: 14px;
+}
+
+section.area-login .login form [type="submit"]{
+    display: block;
+    background-color: #6610F2;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+section.area-login .login form [type="submit"]:hover{
+    background-color: #2d0869;
+}
+
+
+section.area-login .login p{
+    margin-top: 30px;
+    font-size: 17px;
+    color: #CBD0F7;
+}
+
+section.area-login .login p a{
+    color: #8031ff;
+    text-decoration: none;
+    margin-left: 10px;
+
+    transition: 0.3s;
+}
+section.area-login .login p a:hover{
+    color: #a470f8;
+}
+
 /* header */
+
 header{
     padding: 10px 0;
     background-color: #6610F2;
